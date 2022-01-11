@@ -1,0 +1,24 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 16.47      1.23     1.23                             percolate (percolate.c:165 @ 401b38)
+ 14.06      2.28     1.05                             percolate (percolate.c:166 @ 401bdc)
+ 12.32      3.21     0.92                             percolate (percolate.c:164 @ 401a9c)
+ 11.38      4.06     0.85                             percolate (percolate.c:161 @ 401a45)
+ 11.12      4.89     0.83                             percolate (percolate.c:159 @ 401d53)
+  9.17      5.57     0.69                             percolate (percolate.c:167 @ 401c80)
+  8.97      6.25     0.67                             percolate (percolate.c:163 @ 401a73)
+  7.77      6.83     0.58                             percolate (percolate.c:170 @ 401d4f)
+  6.43      7.31     0.48                             percolate (percolate.c:168 @ 401d24)
+  1.47      7.42     0.11                             percolate (percolate.c:159 @ 401a39)
+  0.13      7.43     0.01                             percolate (percolate.c:157 @ 401d66)
+  0.13      7.44     0.01                             percolate (percolate.c:298 @ 402342)
+  0.00      7.44     0.00   360000     0.00     0.00  random_uniform (uni.c:23 @ 400fbe)
+  0.00      7.44     0.00        4     0.00     0.00  subarray (arralloc.c:52 @ 400bb6)
+  0.00      7.44     0.00        3     0.00     0.00  arralloc (arralloc.c:95 @ 400d0e)
+  0.00      7.44     0.00        1     0.00     0.00  percolate (percolate.c:105 @ 4017e7)
+  0.00      7.44     0.00        1     0.00     0.00  percsort (percolate.c:344 @ 4024c0)
+  0.00      7.44     0.00        1     0.00     0.00  rinit (uni.c:87 @ 401294)
+  0.00      7.44     0.00        1     0.00     0.00  rstart (uni.c:42 @ 4010f8)

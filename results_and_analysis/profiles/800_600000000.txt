@@ -1,0 +1,32 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  Ts/call  Ts/call  name    
+ 16.97      3.03     3.03                             percolate (percolate.c:165 @ 401b38)
+ 13.90      5.50     2.48                             percolate (percolate.c:161 @ 401a45)
+ 12.25      7.69     2.18                             percolate (percolate.c:166 @ 401bdc)
+ 11.46      9.73     2.04                             percolate (percolate.c:164 @ 401a9c)
+ 10.73     11.64     1.91                             percolate (percolate.c:159 @ 401d53)
+ 10.51     13.52     1.87                             percolate (percolate.c:167 @ 401c80)
+  9.24     15.17     1.65                             percolate (percolate.c:163 @ 401a73)
+  7.14     16.44     1.27                             percolate (percolate.c:170 @ 401d4f)
+  5.42     17.40     0.97                             percolate (percolate.c:168 @ 401d24)
+  1.46     17.67     0.26                             percolate (percolate.c:159 @ 401a39)
+  0.06     17.68     0.01                             clustcompare (percolate.c:327 @ 402482)
+  0.06     17.69     0.01                             clustcompare (percolate.c:330 @ 402496)
+  0.06     17.70     0.01                             percolate (percolate.c:186 @ 401dda)
+  0.06     17.71     0.01                             percolate (percolate.c:227 @ 401f6d)
+  0.06     17.72     0.01                             percolate (percolate.c:249 @ 402144)
+  0.06     17.73     0.01                             percolate (percolate.c:300 @ 40236c)
+  0.03     17.73     0.01                             clustcompare (percolate.c:339 @ 4024b8)
+  0.03     17.74     0.01                             clustcompare (percolate.c:341 @ 4024be)
+  0.03     17.74     0.01                             percolate (percolate.c:308 @ 4023be)
+  0.03     17.75     0.01                             percolate (percolate.c:310 @ 4023c7)
+  0.00     17.75     0.00   640000     0.00     0.00  random_uniform (uni.c:23 @ 400fbe)
+  0.00     17.75     0.00        4     0.00     0.00  subarray (arralloc.c:52 @ 400bb6)
+  0.00     17.75     0.00        3     0.00     0.00  arralloc (arralloc.c:95 @ 400d0e)
+  0.00     17.75     0.00        1     0.00     0.00  percolate (percolate.c:105 @ 4017e7)
+  0.00     17.75     0.00        1     0.00     0.00  percsort (percolate.c:344 @ 4024c0)
+  0.00     17.75     0.00        1     0.00     0.00  rinit (uni.c:87 @ 401294)
+  0.00     17.75     0.00        1     0.00     0.00  rstart (uni.c:42 @ 4010f8)

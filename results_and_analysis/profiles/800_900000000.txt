@@ -1,0 +1,27 @@
+Flat profile:
+
+Each sample counts as 0.01 seconds.
+  %   cumulative   self              self     total           
+ time   seconds   seconds    calls  ns/call  ns/call  name    
+ 17.82      3.18     3.18                             percolate (percolate.c:165 @ 401b38)
+ 13.21      5.53     2.35                             percolate (percolate.c:164 @ 401a9c)
+ 12.54      7.76     2.23                             percolate (percolate.c:166 @ 401bdc)
+ 11.55      9.82     2.06                             percolate (percolate.c:161 @ 401a45)
+  9.98     11.60     1.78                             percolate (percolate.c:163 @ 401a73)
+  9.89     13.36     1.76                             percolate (percolate.c:159 @ 401d53)
+  9.72     15.10     1.73                             percolate (percolate.c:167 @ 401c80)
+  6.97     16.34     1.24                             percolate (percolate.c:170 @ 401d4f)
+  5.12     17.25     0.91                             percolate (percolate.c:168 @ 401d24)
+  2.14     17.63     0.38                             percolate (percolate.c:159 @ 401a39)
+  0.11     17.65     0.02                             clustcompare (percolate.c:331 @ 40249f)
+  0.06     17.66     0.01   640000    15.65    15.65  random_uniform (uni.c:23 @ 400fbe)
+  0.06     17.67     0.01                             clustcompare (percolate.c:330 @ 402496)
+  0.06     17.68     0.01                             percolate (percolate.c:157 @ 401d66)
+  0.06     17.69     0.01                             percolate (percolate.c:244 @ 402078)
+  0.06     17.70     0.01                             percolate (percolate.c:308 @ 4023be)
+  0.00     17.70     0.00        4     0.00     0.00  subarray (arralloc.c:52 @ 400bb6)
+  0.00     17.70     0.00        3     0.00     0.00  arralloc (arralloc.c:95 @ 400d0e)
+  0.00     17.70     0.00        1     0.00     0.00  percolate (percolate.c:105 @ 4017e7)
+  0.00     17.70     0.00        1     0.00     0.00  percsort (percolate.c:344 @ 4024c0)
+  0.00     17.70     0.00        1     0.00     0.00  rinit (uni.c:87 @ 401294)
+  0.00     17.70     0.00        1     0.00     0.00  rstart (uni.c:42 @ 4010f8)
